@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elearning3</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+
+  <body>
+  <div class="container-fluid mt-5">
+  <form style="max-width: 1500px;" action="/search" name="q" >
+    <div class="input-group">
+ 
+      <input id="search-input" name="q" type="search" id="form1" class="form-control" placeholder="Course or University name"/>
+      <button id="search-button" type="submit" class="btn btn-primary">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>  
+  </form>
+  </div>
+    <%= yield %>
+  </body>
+</html>

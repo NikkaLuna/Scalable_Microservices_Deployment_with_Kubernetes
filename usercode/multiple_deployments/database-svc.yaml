@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: database-svc
+spec:
+  type: ClusterIP
+  ports:
+  - name: "database"
+    port: 5432
+    protocol: TCP
+  selector:
+    project: kubernetes-project
+    tier: backend
+    app: database

@@ -1,0 +1,25 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: database-deployment
+spec:
+  selector:
+    matchLabels:
+      project: kubernetes-project
+      tier: backend
+  template:
+    metadata:
+      labels:
+        project: kubernetes-project
+        tier: backend
+        app: database
+    spec: 
+      containers:
+      - image: postgres:latest
+        name: postgres-image
+        ports:
+          - containerPort: 5432
+        imagePullPolicy: Always
+        envFrom:
+          - configMapRef:
+                name: database-configmap

@@ -1,0 +1,24 @@
+
+
+<% @courses.each do |c| %>
+    <div class="container-fluid mt-5">
+        <div class="card mb-3" style="max-width: 1500px;">
+        <div class="row g-0">
+            <div class="col-lg-4">
+
+                <img src="<%= c.image %>" class=" mt-2 text-center img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-lg-8">
+            <div class="card-body">
+                <h5 class="card-title"><td><%= link_to c.name, c.link, target: :_blank  %></td></h5>
+                <p class="card-text"><%= c.writer %></p>
+                <p class="card-text col-lg-10 fs-5"><%= c.description %></p>
+                <p class="card-text"><small class="text-muted fs-6"><%= c.course_type ? "Free" : "Paid" %></small></p>
+                <a class="card-text btn btn-lg btn-primary" href="<%= c.link %>" target="_blank" role="button">Visit Website</a>
+                
+            </div>
+            </div>
+        </div>
+        </div>
+    </div>
+<% end %>

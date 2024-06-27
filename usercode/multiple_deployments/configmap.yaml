@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: database-configmap
+data:
+  POSTGRES_SVC: "database-svc"
+  POSTGRES_PORT: "5432"
+  POSTGRES_DB: "elearning3_development"
+  POSTGRES_USER: "postgres"
+  POSTGRES_PASSWORD: "postgrespassword"
