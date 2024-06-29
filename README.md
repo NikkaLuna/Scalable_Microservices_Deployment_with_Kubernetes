@@ -3,6 +3,9 @@
 ## Overview
 This project demonstrates the deployment of a scalable and reliable full-stack web application on a Kubernetes cluster. The application consists of a Ruby on Rails backend and a PostgreSQL database, each deployed as separate microservices to enhance scalability and maintainability. ConfigMaps are used for efficient configuration management.
 
+For more detailed information about the project, please visit the [project website](https://your-aws-website-url.com).
+
+
 
 ## Features
 - **Microservices Architecture**: Frontend and backend components are deployed as independent microservices, allowing for granular scalability and flexibility.
