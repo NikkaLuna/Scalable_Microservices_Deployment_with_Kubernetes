@@ -5,10 +5,11 @@ This project demonstrates the deployment of a scalable and reliable full-stack w
 
 
 ## Features
-- **Microservices Architecture**: Deployment of frontend and backend components as separate microservices.
-- **Kubernetes Configuration**: Utilization of ConfigMaps for managing configurations.
-- **Scalability and Reliability**: Enhanced by containerization and Kubernetes orchestration.
-- **Docker Integration**: Containerization of the application using Docker and deployment to Docker Hub.
+- **Microservices Architecture**: Frontend and backend components are deployed as independent microservices, allowing for granular scalability and flexibility.
+- **Kubernetes**: Orchestrates the deployment, scaling, and management of the microservices, ensuring high availability and efficient resource utilization.
+- **Docker**: Containerizes the application components, providing consistency across different environments and simplifying the deployment process.
+- **PostgreSQL**: A robust and scalable relational database that stores and manages application data reliably.
+- **ConfigMaps**: Manages environment variables and configurations for the distributed microservices, enabling centralized and dynamic configuration updates.
 
 
 ## Technologies
