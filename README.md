@@ -6,7 +6,7 @@ This project demonstrates the deployment of a scalable and reliable full-stack w
 For more detailed information about the project, please visit the [project website](https://your-aws-website-url.com).
 
 <div align="center">
-  <img src="KubernetesDiagram.png" alt="Kubernetes Diagram" style="width:66%;">
+  <img src="Kubernetes_Diagram.png" alt="Kubernetes Diagram" style="width:66%;">
 </div>
 
 
