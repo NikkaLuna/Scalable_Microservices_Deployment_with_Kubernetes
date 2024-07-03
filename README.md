@@ -1,14 +1,19 @@
 # Scalable Microservices Deployment with Kubernetes
 
 ## Overview
-This project demonstrates the deployment of a scalable and reliable full-stack web application on a Kubernetes cluster. The application consists of a Ruby on Rails backend and a PostgreSQL database, each deployed as separate microservices to enhance scalability and maintainability. ConfigMaps are used for efficient configuration management.
+This project demonstrates the deployment of a scalable and reliable full-stack web application on a Kubernetes cluster. 
+
+The application consists of a Ruby on Rails backend and a PostgreSQL database, each deployed as separate microservices to enhance scalability and maintainability. ConfigMaps are used for efficient configuration management.
 
 For more detailed information about the project, please visit the [project website](http://scalablemicroservicesdeploymentwithkubernetes.s3-website.us-east-2.amazonaws.com/index.html).
 
+<br>
 
 <div align="center">
   <img src="Kubernetes_Diagram.png" alt="Kubernetes Diagram" style="width:66%;">
 </div>
+
+---
 
 
 ## Features
@@ -25,7 +30,9 @@ For more detailed information about the project, please visit the [project websi
 
 
 ## Project Description
-In this project, I used Docker and Kubernetes command-line tools to deploy a Ruby on Rails (RoR) application over a Kubernetes cluster. The application uses a PostgreSQL database. Kubernetes handles the deployment, management, and scaling of the services, while Docker is used for containerization. Environment variables are managed using ConfigMaps.
+In this project, I used Docker and Kubernetes command-line tools to deploy a Ruby on Rails (RoR) application over a Kubernetes cluster. 
+
+The application uses a PostgreSQL database. Kubernetes handles the deployment, management, and scaling of the services, while Docker is used for containerization. Environment variables are managed using ConfigMaps.
 
 
 ## Prerequisites
